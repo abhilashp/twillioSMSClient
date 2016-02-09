@@ -1,5 +1,4 @@
 var express = require("express");
-var config =  require ('./config.json');
 var app = express();
 global.mesgArray = []; //Holds all messages. Make to a DB/Table if needed
 
@@ -16,7 +15,6 @@ app.use('/mesg', mesg);
 app.use(function(req, res, next) {
     res.end("Unknown request");
 });
-
 
 var port = 8080  , ip = "127.0.0.1";
 var server = app.listen(port, ip);
