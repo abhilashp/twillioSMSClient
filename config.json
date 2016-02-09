@@ -1,0 +1,10 @@
+{
+   "debug" : "true",
+    "twilio" : {
+        "accountSid" : "YOURACCOUNT SID FROM TWILIO",
+        "authToken" : "YOUR AUTHTOKEN FROM TWILIO",
+        "interUrl" :"YOUR URL FROM TWILIO",
+        "defaultPhone" : "PHONE# PURCHASED"
+    }
+
+}
