@@ -1,0 +1,16 @@
+html
+    header
+        h1  Messages Received
+body
+    table
+        tr
+            th Received at (EDT)
+            th Message Text
+            th ToNumber
+            th FromNumber
+        -each row in val
+            tr
+                td #{row.rectime}
+                td #{row.message}
+                td #{row.tonumber}
+                td #{row.fromnumber}

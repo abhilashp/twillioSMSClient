@@ -1,0 +1,10 @@
+{
+   "debug" : "true",
+    "twilio" : {
+        "accountSid" : "ACe057620e74e8b39e5a756a09b9b8698d",
+        "authToken" : "8d4bae3839ec4111163d6823eac5bf97",
+        "interUrl" :"/2010-04-01/Accounts/ACe057620e74e8b39e5a756a09b9b8698d",
+        "defaultPhone" : "+14089164007"
+    }
+
+}
