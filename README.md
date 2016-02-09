@@ -1,4 +1,5 @@
 # twillioSMSClient
+Receive SMS Messages and Text Messages on a webpage!
 Purpose of this project is to create a simple node.js based webserver which can act as receiver for SMS messages. This will be helpful if  you need to receive SMS messages as on a the web page instead of mobile phone.
 
 Can be quiet handy for QA automation applications which need to receive text messages.
